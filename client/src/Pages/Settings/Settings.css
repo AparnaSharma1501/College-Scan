@@ -1,0 +1,77 @@
+.settings {
+  display: flex;
+}
+.settings-wrapper {
+  flex: 9;
+  padding: 20px;
+}
+.settings-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-updateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+.settings-deleteTitle {
+  font-size: 12px;
+  cursor: pointer;
+  color: red;
+}
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+.settings-PP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.settings-PP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.settings-PP-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.settings-form > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.settings-form > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.settings-submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fileInput {
+  display: none;
+}
